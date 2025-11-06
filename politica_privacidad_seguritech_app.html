@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Política de Privacidad</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --brand:#004E94;
+      --text:#111111;
+      --muted:#525252;
+      --card-bg:#ffffff;
+      --radius:18px;
+    }
+    html, body {
+      height: 100%;
+      background: var(--brand);
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .wrapper {
+      min-height: 100%;
+      display: grid;
+      place-items: start center;
+      padding: 32px 16px;
+    }
+    .card {
+      width: 100%;
+      max-width: 920px;
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      box-shadow: 0 10px 30px rgba(0,0,0,.15);
+      overflow: hidden;
+      animation: fadeIn .5s ease-out;
+    }
+    .card header {
+      background: linear-gradient(135deg, #0459A5 0%, #003D73 100%);
+      color: #fff;
+      padding: 28px 28px;
+    }
+    .title {
+      margin: 0 0 6px 0;
+      font-size: clamp(1.4rem, 1.1rem + 1.2vw, 2rem);
+      font-weight: 700;
+      letter-spacing: .2px;
+    }
+    .subtitle {
+      margin: 0;
+      opacity: .95;
+      font-weight: 500;
+      font-size: 0.95rem;
+    }
+    .content {
+      padding: 28px;
+    }
+    h2 {
+      font-size: clamp(1.05rem, 0.95rem + .6vw, 1.35rem);
+      margin: 1.6rem 0 .6rem;
+      line-height: 1.3;
+    }
+    p { margin: .6rem 0; }
+    ul { margin: .4rem 0 .8rem 1.25rem; }
+    li { margin: .25rem 0; }
+    .muted { color: var(--muted); }
+    .section { margin-top: 1.2rem; }
+    .badge {
+      display: inline-block;
+      background: #eef6ff;
+      color: #084d96;
+      border: 1px solid #cfe6ff;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+    @media (max-width: 520px){
+      .content { padding: 22px; }
+      .card header { padding: 22px; }
+    }
+    @media print {
+      body { background: #fff; }
+      .wrapper { padding: 0; }
+      .card { box-shadow: none; border-radius: 0; }
+      .card header { background: #ffffff; color: #000; }
+      .badge { border: none; background: none; color: #000; }
+      a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.9em; }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    /* Accessible focus styles */
+    a:focus, button:focus, [tabindex]:focus { outline: 3px solid #99c8ff; outline-offset: 2px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <article class="card" role="article" aria-labelledby="title">
+      <header>
+        <h1 class="title" id="title">Política de Privacidad</h1>
+        <p class="subtitle"><span class="badge" aria-label="Última actualización">Última actualización: 5 de noviembre de 2025</span></p>
+      </header>
+      <div class="content">
+        <p>La presente Política de Privacidad describe cómo esta aplicación móvil maneja la información de los usuarios y su relación con la plataforma LMS <strong>Teachlr</strong>, proveedor tecnológico contratado por <strong>Seguritech</strong>, empresa responsable del servicio y de la gestión de los usuarios.</p>
+
+        <section class="section" aria-labelledby="sec1">
+          <h2 id="sec1">1. Recopilación de información</h2>
+          <p>Esta aplicación <strong>no recopila, almacena ni comparte directamente información personal</strong> de los usuarios. El acceso a la aplicación se realiza exclusivamente mediante un <strong>nombre de usuario y contraseña</strong> previamente asignados por <strong>Seguritech</strong>, responsable del servicio.</p>
+          <p>Toda la información personal asociada a la cuenta del usuario (por ejemplo, nombre, correo electrónico o datos de perfil) <strong>se gestiona y almacena dentro de la plataforma LMS Teachlr</strong>, que actúa como <em>proveedor externo y encargado del tratamiento de datos</em> en nombre de Seguritech. Dicha información se maneja conforme a las políticas de privacidad de Teachlr y las disposiciones internas de Seguritech.</p>
+        </section>
+
+        <section class="section" aria-labelledby="sec2">
+          <h2 id="sec2">2. Uso de la información</h2>
+          <p>La aplicación <strong>solo transmite información técnica necesaria</strong> para el funcionamiento del sistema, como:</p>
+          <ul>
+            <li>Registrar el avance del usuario en los cursos,</li>
+            <li>Marcar lecciones como completadas,</li>
+            <li>Guardar respuestas de evaluaciones o actividades,</li>
+            <li>Permitir continuar cursos en diferentes dispositivos.</li>
+          </ul>
+          <p>Estos datos se <strong>almacenan y procesan dentro de la plataforma Teachlr</strong>, con el <strong>único propósito educativo</strong> de mantener actualizado el progreso académico del usuario. La aplicación <strong>no realiza análisis de comportamiento, seguimiento publicitario ni recolección de métricas de uso</strong> más allá de lo estrictamente necesario para el funcionamiento del servicio.</p>
+          <p>Asimismo, la información proporcionada por los usuarios al responder <strong>evaluaciones, cuestionarios o encuestas de satisfacción</strong> se utiliza exclusivamente con fines educativos y de mejora continua del servicio. Las respuestas de evaluaciones permiten medir el desempeño académico y el cumplimiento de objetivos de aprendizaje, mientras que las encuestas se emplean para valorar la calidad de los contenidos y optimizar la experiencia de capacitación. Estos datos se gestionan únicamente dentro de la plataforma LMS Teachlr, y <strong>no se comparten con terceros ajenos a Seguritech</strong>.</p>
+        </section>
+
+        <section class="section" aria-labelledby="sec3">
+          <h2 id="sec3">3. Permisos del dispositivo</h2>
+          <p>La aplicación <strong>solo solicita el permiso para enviar notificaciones</strong>. Este permiso permite recibir avisos sobre actualizaciones, recordatorios o mensajes relacionados con el progreso del curso o el uso de la plataforma. Las notificaciones <strong>no contienen información personal sensible</strong> y <strong>no se utilizan con fines publicitarios ni de comunicación con terceros</strong>.</p>
+          <p>Fuera de este permiso, la aplicación <strong>no solicita acceso</strong> a otros recursos del dispositivo, como cámara, micrófono, ubicación o almacenamiento, y <strong>no utiliza cookies ni herramientas de rastreo</strong>.</p>
+        </section>
+
+        <section class="section" aria-labelledby="sec4">
+          <h2 id="sec4">4. Seguridad de la información</h2>
+          <p>El acceso a la aplicación está protegido mediante credenciales personales (usuario y contraseña). El manejo de la información y las medidas de seguridad se realizan conforme a las políticas de <strong>Teachlr</strong> y a las disposiciones internas de <strong>Seguritech</strong>, empresa responsable del servicio y del resguardo de la información de sus usuarios.</p>
+        </section>
+
+        <section class="section" aria-labelledby="sec5">
+          <h2 id="sec5">5. Enlaces externos</h2>
+          <p>Esta aplicación puede contener enlaces o integraciones que dirigen al usuario hacia la plataforma LMS <strong>Teachlr</strong> u otros recursos en línea. El acceso a dichos recursos se rige por sus <strong>propias políticas de privacidad</strong>, ajenas a esta aplicación.</p>
+        </section>
+
+        <section class="section" aria-labelledby="sec6">
+          <h2 id="sec6">6. Contacto</h2>
+          <p>Si tienes preguntas sobre esta Política de Privacidad o sobre el tratamiento de tus datos personales, puedes ponerte en contacto con <strong>Seguritech</strong>, empresa responsable del servicio, o con el <strong>administrador designado del acceso</strong>.</p>
+        </section>
+      </div>
+    </article>
+  </div>
+</body>
+</html>
